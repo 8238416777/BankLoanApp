@@ -1,8 +1,8 @@
+import 'package:bank_loan_app/screens.dart/about_bank_screen.dart';
 import 'package:flutter/material.dart';
 import 'loan_form_screen.dart';
 import 'my_loans_screen.dart';
 import 'profile_screen.dart';
-import 'about_bank_screen.dart';
 
 class DashboardScreen extends StatelessWidget {
   const DashboardScreen({super.key});

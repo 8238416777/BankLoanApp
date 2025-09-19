@@ -25,7 +25,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
           child: Column(
             children: [
               TextFormField(
-                decoration: const InputDecoration(labelText: "Full Name"),
+                decoration: const InputDec
+                oration(labelText: "Full Name"),
                 onChanged: (val) => name = val,
                 validator: (val) => val!.isEmpty ? "Enter your name" : null,
               ),

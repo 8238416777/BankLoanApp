@@ -1,7 +1,7 @@
+import 'package:bank_loan_app/screens.dart/dashboard_screen.dart';
+import 'package:bank_loan_app/screens.dart/loan_form_screen.dart';
+import 'package:bank_loan_app/screens.dart/welcome_screen.dart';
 import 'package:flutter/material.dart';
-import 'screens/welcome_screen.dart';
-import 'screens/dashboard_screen.dart';
-import 'screens/loan_form_screen.dart';
 
 void main() {
   runApp(const MyApp());
